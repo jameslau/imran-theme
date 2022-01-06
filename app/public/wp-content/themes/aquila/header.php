@@ -25,5 +25,11 @@
   <?php wp_head(); ?>
 
 </head>
-<body>
+
+<!-- note: adds a class for every page -->
+<body <?php body_class( 'hello-class' ); ?>>
+
+<!-- note: this was added after WP 5.2. allows scripts to be added after the body tag -->
+<?php wp_body_open(); ?>
+
 <header>Header</header>
