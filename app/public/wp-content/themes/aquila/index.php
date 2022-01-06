@@ -3,21 +3,15 @@
  * 
  * Main template file.
  * 
- * @package Aquila
+ * @package Imran
  */
 
 
-
+get_header();
  ?>
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imran Theme</title>
-</head>
-<body>
-Hello WordPress
-</body>
-</html>
+<div class="content">Content</div>
+
+<?
+get_footer();
+
