@@ -1,1 +1,1 @@
-# imran-theme
+# WordPress Theme - Imran
