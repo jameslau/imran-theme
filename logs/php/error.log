@@ -1,0 +1,30 @@
+[07-Jan-2022 00:49:41 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 0 given in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/aquila/functions.php on line 23
+[07-Jan-2022 00:49:41 UTC] PHP Stack trace:
+[07-Jan-2022 00:49:41 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[07-Jan-2022 00:49:41 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[07-Jan-2022 00:49:41 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:19
+[07-Jan-2022 00:49:41 UTC] PHP   4. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/template-loader.php:106
+[07-Jan-2022 00:49:41 UTC] PHP   5. get_header() /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/aquila/index.php:10
+[07-Jan-2022 00:49:41 UTC] PHP   6. locate_template() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/general-template.php:48
+[07-Jan-2022 00:49:41 UTC] PHP   7. load_template() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/template.php:716
+[07-Jan-2022 00:49:41 UTC] PHP   8. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/template.php:770
+[07-Jan-2022 00:49:41 UTC] PHP   9. wp_head() /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/aquila/header.php:25
+[07-Jan-2022 00:49:41 UTC] PHP  10. do_action() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/general-template.php:3015
+[07-Jan-2022 00:49:41 UTC] PHP  11. WP_Hook->do_action() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/plugin.php:470
+[07-Jan-2022 00:49:41 UTC] PHP  12. WP_Hook->apply_filters() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php:327
+[07-Jan-2022 00:49:41 UTC] PHP  13. wp_enqueue_scripts() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php:303
+[07-Jan-2022 00:49:41 UTC] PHP  14. do_action() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php:2083
+[07-Jan-2022 00:49:41 UTC] PHP  15. WP_Hook->do_action() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/plugin.php:470
+[07-Jan-2022 00:49:41 UTC] PHP  16. WP_Hook->apply_filters() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php:327
+[07-Jan-2022 00:49:41 UTC] PHP  17. imran_enqueue_scripts() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php:303
+[07-Jan-2022 00:49:41 UTC] PHP  18. filemtime() /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/aquila/functions.php:23
+[07-Jan-2022 00:56:42 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:42 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 00:56:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18

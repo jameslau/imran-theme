@@ -23,6 +23,7 @@
 
   <!-- note: this is going to print all the style and link tag elements -->
   <?php wp_head(); ?>
+  
 
 </head>
 
