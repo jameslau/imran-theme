@@ -28,3 +28,48 @@
 [07-Jan-2022 00:56:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
 [07-Jan-2022 00:56:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
 [07-Jan-2022 00:56:54 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 18
+[07-Jan-2022 03:06:06 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php:2371
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2401): wp_should_load_separate_core_block_assets()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_enqueue_registered_block_scripts_and_styles('')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#5 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#6 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(32 in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php on line 2371
+[07-Jan-2022 03:06:26 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php:2371
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2401): wp_should_load_separate_core_block_assets()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_enqueue_registered_block_scripts_and_styles('')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#5 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#6 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(32 in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php on line 2371
+[07-Jan-2022 03:06:31 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php:2371
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2401): wp_should_load_separate_core_block_assets()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_enqueue_registered_block_scripts_and_styles('')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#5 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#6 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(32 in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php on line 2371
+[07-Jan-2022 03:12:55 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php:2371
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2401): wp_should_load_separate_core_block_assets()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_enqueue_registered_block_scripts_and_styles('')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#5 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#6 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(32 in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php on line 2371
+[07-Jan-2022 03:14:32 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php:2371
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2401): wp_should_load_separate_core_block_assets()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_enqueue_registered_block_scripts_and_styles('')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#5 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#6 /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php(32 in /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/script-loader.php on line 2371
