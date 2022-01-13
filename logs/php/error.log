@@ -153,3 +153,405 @@ Stack trace:
 [07-Jan-2022 07:31:25 UTC] PHP  16. WP_Hook->apply_filters() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php:327
 [07-Jan-2022 07:31:25 UTC] PHP  17. imran_enqueue_scripts() /Users/jameslau/Local Sites/imran-theme/app/public/wp-includes/class-wp-hook.php:303
 [07-Jan-2022 07:31:25 UTC] PHP  18. filemtime() /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php:26
+[13-Jan-2022 20:30:02 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:02 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:02 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:02 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:02 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:02 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:02 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:02 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:02 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:02 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:02 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:02 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:02 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:02 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:02 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:02 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:02 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:02 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:02 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:02 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:02 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:02 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:02 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:02 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:02 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:02 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:02 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:02 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:02 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:02 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:40 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:40 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:40 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:40 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:40 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:40 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:40 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:40 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:40 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:40 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:40 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:40 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:40 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:40 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:40 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:40 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:40 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:40 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:40 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:40 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:40 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:40 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:40 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:40 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:40 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:40 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:40 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:40 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:40 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:40 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:52 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:52 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:52 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/wp-cron.php:0
+[13-Jan-2022 20:30:52 UTC] PHP   2. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-cron.php:44
+[13-Jan-2022 20:30:52 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:52 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:52 UTC] PHP   5. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:52 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:52 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/wp-cron.php:0
+[13-Jan-2022 20:30:52 UTC] PHP   2. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-cron.php:44
+[13-Jan-2022 20:30:52 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:52 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:52 UTC] PHP   5. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:54 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:54 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:54 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:54 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:54 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:54 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:54 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:54 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:54 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:54 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:54 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:54 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:54 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:54 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:54 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:54 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:54 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:54 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:54 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:54 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:54 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:54 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:54 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:54 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:30:54 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:30:54 UTC] PHP Stack trace:
+[13-Jan-2022 20:30:54 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:30:54 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:30:54 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:30:54 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:30:54 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:30:54 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:06 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:06 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:06 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:06 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:06 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:06 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:06 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:06 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:06 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:06 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:06 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:06 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:06 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:06 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:06 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:07 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:07 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:07 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:07 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:07 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:07 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:07 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:07 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:07 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:07 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:07 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:07 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:07 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:07 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:07 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:07 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:07 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:07 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:07 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:07 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:07 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:07 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:07 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:07 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:07 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:07 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:07 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:07 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:07 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:07 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:08 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:08 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:08 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:08 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:08 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:08 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:08 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:08 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:31:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:31:08 UTC] PHP Stack trace:
+[13-Jan-2022 20:31:08 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:31:08 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:31:08 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:31:08 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:31:08 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:31:08 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:32:14 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:32:14 UTC] PHP Stack trace:
+[13-Jan-2022 20:32:14 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:32:14 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:32:14 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:32:14 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:32:14 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:32:14 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:32:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:32:14 UTC] PHP Stack trace:
+[13-Jan-2022 20:32:14 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:32:14 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:32:14 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:32:14 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:32:14 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:32:14 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:32:15 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:32:15 UTC] PHP Stack trace:
+[13-Jan-2022 20:32:15 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:32:15 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:32:15 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:32:15 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:32:15 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:32:15 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:32:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:32:15 UTC] PHP Stack trace:
+[13-Jan-2022 20:32:15 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:32:15 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:32:15 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:32:15 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:32:15 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:32:15 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:57 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:57 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:57 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:57 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:57 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:57 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:57 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:57 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:57 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:57 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:57 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:57 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:57 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:57 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:57 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:58 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:58 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:58 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:58 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:58 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:58 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:58 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:58 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:58 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:58 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:58 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:58 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:58 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:58 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:58 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:59 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:59 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:59 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:59 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:59 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:59 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:59 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:59 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:59 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:59 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:59 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:59 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:59 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:59 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:59 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:59 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:59 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:59 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:59 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:59 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:59 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:59 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:59 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:36:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:36:59 UTC] PHP Stack trace:
+[13-Jan-2022 20:36:59 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:36:59 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:36:59 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:36:59 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:36:59 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:36:59 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 32
+[13-Jan-2022 20:37:03 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:03 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:03 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:03 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:03 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:03 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:03 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:37 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 31
+[13-Jan-2022 20:37:37 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:37 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:37 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:37 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:37 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:37 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:37 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:37 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 31
+[13-Jan-2022 20:37:37 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:37 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:37 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:37 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:37 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:37 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:37 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:37 UTC] PHP Warning:  require_once(IMRAN_DIR_PATH/inc/helpers/autoloader.php): failed to open stream: No such file or directory in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 31
+[13-Jan-2022 20:37:37 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:37 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:37 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:37 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:37 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:37 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:37 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 20:37:37 UTC] PHP Fatal error:  require_once(): Failed opening required 'IMRAN_DIR_PATH/inc/helpers/autoloader.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 31
+[13-Jan-2022 20:37:37 UTC] PHP Stack trace:
+[13-Jan-2022 20:37:37 UTC] PHP   1. {main}() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:0
+[13-Jan-2022 20:37:37 UTC] PHP   2. require() /Users/jameslau/Local Sites/imran-theme/app/public/index.php:17
+[13-Jan-2022 20:37:37 UTC] PHP   3. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php:13
+[13-Jan-2022 20:37:37 UTC] PHP   4. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php:50
+[13-Jan-2022 20:37:37 UTC] PHP   5. require_once() /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php:77
+[13-Jan-2022 20:37:37 UTC] PHP   6. include() /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php:546
+[13-Jan-2022 22:09:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php:33
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php(546): include()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php(77): require_once('/Users/jameslau...')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php(50): require_once('/Users/jameslau...')
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php(13): require_once('/Users/jameslau...')
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/index.php(17): require('/Users/jameslau...')
+#5 {main}
+  thrown in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 33
+[13-Jan-2022 22:09:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php:33
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php(546): include()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php(77): require_once('/Users/jameslau...')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php(50): require_once('/Users/jameslau...')
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php(13): require_once('/Users/jameslau...')
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/index.php(17): require('/Users/jameslau...')
+#5 {main}
+  thrown in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 33
+[13-Jan-2022 22:10:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php:33
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php(546): include()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php(77): require_once('/Users/jameslau...')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php(50): require_once('/Users/jameslau...')
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php(13): require_once('/Users/jameslau...')
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/index.php(17): require('/Users/jameslau...')
+#5 {main}
+  thrown in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 33
+[13-Jan-2022 22:10:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_uri() in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php:33
+Stack trace:
+#0 /Users/jameslau/Local Sites/imran-theme/app/public/wp-settings.php(546): include()
+#1 /Users/jameslau/Local Sites/imran-theme/app/public/wp-config.php(77): require_once('/Users/jameslau...')
+#2 /Users/jameslau/Local Sites/imran-theme/app/public/wp-load.php(50): require_once('/Users/jameslau...')
+#3 /Users/jameslau/Local Sites/imran-theme/app/public/wp-blog-header.php(13): require_once('/Users/jameslau...')
+#4 /Users/jameslau/Local Sites/imran-theme/app/public/index.php(17): require('/Users/jameslau...')
+#5 {main}
+  thrown in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 33
