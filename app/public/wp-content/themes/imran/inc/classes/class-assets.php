@@ -49,5 +49,5 @@ class Assets {
     wp_enqueue_script( 'main-js' );
     wp_enqueue_script( 'bootstrap-js' );
   }
-  
+
 }
