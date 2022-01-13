@@ -19,6 +19,20 @@
 // print_r( filemtime( get_template_directory() . '/style.css' ));
 // wp_die();
 
+// if no defined
+if ( ! defined( 'IMRAN_DIR_PATH' ) ) {
+  define( 'IMRAN_DIR_PATH', untrailingslashit( get_template_directory() ) );
+}
+
+// note: test the defined absolute path 
+// echo '<pre>';
+// print_r( IMRAN_DIR_PATH );
+// wp_die();
+
+
+require_once 'IMRAN_DIR_PATH' . '/inc/helpers/autoloader.php';
+
+
 function imran_enqueue_scripts() {
 
   // REGISTER STYLES
