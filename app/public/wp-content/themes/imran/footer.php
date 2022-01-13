@@ -9,6 +9,8 @@
 ?>
 
 <footer>Footer</footer>
+</div>
+</div>
 
 <!-- note: this is going to print all the scripts -->
 <?php wp_footer(); ?>
