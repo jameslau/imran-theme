@@ -39,4 +39,22 @@ class Menus {
     ]);
   }
 
+  public function get_menu_id( $location ) {
+    // note: get all the locations
+    $locations = get_nav_menu_locations();
+    // note: echo out all the menu ids
+    // echo '<pre>';
+    // print_r ( $locations );
+    // wp_die();
+
+    // note: get object id by location
+    $menu_id = $locations[$location];
+    // note: echo out the specific menu id
+    // echo '<pre>';
+    // print_r ( $menu_id );
+    // wp_die();
+
+    return ! empty( $menu_id ) ? $menu_id : '';
+  }
+
 }
