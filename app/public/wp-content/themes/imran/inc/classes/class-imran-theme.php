@@ -47,6 +47,14 @@ class IMRAN_THEME {
       'flex-height' => true,
       'flex-width'  => true,
     ] );
+    
+    add_theme_support( 'custom-background', [
+      'default-color'      => '#fff',
+      'default-image'      => get_template_directory_uri() . '/bg-firewatch.jpeg',
+      'default-position-x' => 'right',
+      'default-position-y' => 'top',
+      'default-repeat'     => 'no-repeat',
+    ] );
 
   }
 
