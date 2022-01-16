@@ -57,4 +57,25 @@ class Menus {
     return ! empty( $menu_id ) ? $menu_id : '';
   }
 
+  // note: how to get child menu items
+  public function get_child_menu_items( $menu_array, $parent_id ) {
+
+    // note: create an empty array where we'll be pushing the child arrays into and ignoring parent ones
+    $child_menus = [];
+
+    // note: error handling. always check before running a foreach loop
+    if ( ! empty( $menu_array ) && is_array( $menu_array ) ) {
+      foreach ( $menu_array as $menu ) {
+        // note: if the parent menu id of the child menu items are the same, push them to the '$child_menus' array
+        if ( intval( $menu->menu_item_parent ) === $parent_id ) {
+          // note: takes the array you are working with and what you want to push inside
+          array_push ( $child_menus, $menu );
+        }
+      }
+    }
+
+    return $child_menus;
+
+  }
+
 }
