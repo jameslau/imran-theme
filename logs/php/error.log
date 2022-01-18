@@ -555,3 +555,8 @@ Stack trace:
 #4 /Users/jameslau/Local Sites/imran-theme/app/public/index.php(17): require('/Users/jameslau...')
 #5 {main}
   thrown in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/functions.php on line 33
+[18-Jan-2022 18:56:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/index.php on line 80
+[18-Jan-2022 19:01:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/template-parts/content-none.php on line 43
+[18-Jan-2022 20:10:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/template-parts/content-none.php on line 48
+[18-Jan-2022 20:10:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/template-parts/content-none.php on line 48
+[18-Jan-2022 20:10:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/jameslau/Local Sites/imran-theme/app/public/wp-content/themes/imran/template-parts/content-none.php on line 48
