@@ -15,7 +15,7 @@ get_header();
     <?php
       //note: the famous WP loop
       //note: if post is available
-      if ( have_posts() ) {
+      if ( have_posts() ) :
         ?>
         <div class="container">
           <?php
@@ -51,11 +51,7 @@ get_header();
                   <?php
                 }
                 
-                //note: write the content of the HTML here
-                ?>
-                <h3><?php the_title(); ?></h3>
-                <div><?php the_excerpt(); ?></div>
-                <?php                
+                get_template_part( 'template-parts/content' );
 
                 //note: index is increment by one (this depends on how many posts you have total)
                 //note: first case, indexes value is equal to one
@@ -68,15 +64,21 @@ get_header();
                     </div>
                   <?php
                 }
-
-
+                
               endwhile;
             ?>
           </div>
-        </div>
+        
         <?php
-      } 
+        else :
+
+          //note: if there are no posts, this is where it will be rendered
+          get_template_part( 'template-parts/content-none' );
+
+        endif;
+
     ?>
+    </div>
   </main>
 </div>
  
